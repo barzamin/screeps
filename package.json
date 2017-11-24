@@ -1,0 +1,8 @@
+{
+    "name": "polycule-screeps",
+    "version": "0.0.1",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-screeps": "^1.0.4"
+    }
+}
