@@ -2,6 +2,10 @@
     "name": "screeps",
     "version": "0.0.1",
     "repository": "https://github.com/polycule-club/screeps",
+    "scripts": {
+        "flow": "node_modules/.bin/flow",
+        "build": "npm run flow && node_modules/.bin/gulp"
+    },
     "devDependencies": {
         "@babel/core": "^7.0.0-beta.32",
         "@babel/preset-env": "^7.0.0-beta.32",
